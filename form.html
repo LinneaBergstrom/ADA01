@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario alumnxs</title>
+</head>
+<body>
+    <h1>Formulario para personas interesadas en sesiones de yoga</h1>
+    <h2>¿Cómo te llamas?</h2>
+    <form action="/thankyou.html" method="get"> <!-- mandarlo a página de thankyou -->
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" placeholder="Tú nombre aquí"/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Tú email aquí"/>
+
+<!-- Número, un poquito trambolico,  -->
+        <label for="quantity"> Número de teléfono:</label>
+  <input type="number" id="quantity" name="quantity" placeholder="999999999">
+
+ <!-- Radio, elegir uno -->
+        <h2>Información sobre ti</h2>
+        <label>Género:</label>
+        <input type="radio" name="tipus"  value="Mujer" checked> Mujer 
+        <input type="radio" name="tipus"  value="Hombre"> Hombre
+        <input type="radio" name="tipus"  value="No-binarie">  No-binarie
+        <input type="radio" name="tipus"  value="Otro">  Otro
+        <input type="radio" name="tipus"  value="Prefiero no decir">  Prefiero no decir
+      </br>
+
+<!-- Drop down selector -->
+      <label>Donde vives:</label>
+        <select name="País">
+        <option value="España">España</option>
+        <option value="Francia">Francia</option>
+        <option value="Suecia">Suecia</option>
+        <option value="Otro">Otro</option>
+      </select> </br>
+<!-- Checkbox -->
+<h2>¿Qué te interesa aprender?</h2>
+<form>
+    <input type="checkbox" id="estilo1" name="estilo1" value="Asana">
+    <label for="estilo1"> Yoga Asana, posturas de yoga</label><br>
+    <input type="checkbox" id="estilo2" name="estilo2" value="Meditación">
+    <label for="estilo2"> Meditación</label><br>
+    <input type="checkbox" id="estilo3" name="estilo3" value="Pranayama">
+    <label for="estilo3"> Pranayama, técnicas de respiración</label>
+    <input type="checkbox" id="estilo3" name="estilo3" value="Filosofía">
+    <label for="estilo3"> Filosofía yoguica</label> </br></br>
+    <label for="msg">Preguntas y/o comentarios:</label>
+    <textarea id="msg" name="msg"></textarea> </br>
+  
+  <input type="button" onclick="alert('Enviado')" value="Enviar información">
+</form> </br>
+</body>
+</html>
+
+
+
+<!--Has de fer-hi lloc per a què l'usuari pugui entrar algunes dades personals (per exemple, nom, email, edat...), i també has d'afegir preguntes que l'usuari pugui respondre. Pots fer el formulari sobre qualsevol tema que t'inspiri.
+
+Hauràs d'utilitzar, com a mínim, aquests elements (més d'una vegada si vols):
+
+input de text - hecho
+selector "dropdown" - hecho
+input de número - hecho pero feo
+"radio" buttons (selecció individual) - hecho
+checkbox (selecció múltiple) - hecho
+area de text
+etiquetes (label)
+algun altre element (date, range...)
+botó d'enviament -->

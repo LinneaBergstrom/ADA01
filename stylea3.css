@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(34, 7, 68)
+
+}
+
+h1 {
+    color: rgb(10, 10, 94);
+    background-color: rgb(225, 181, 245);
+    text-align: center;
+    border: 1px solid black;
+  }
+
+h2 {
+    color: rgb(10, 10, 88);
+    background-color: rgb(198, 199, 255);
+    text-align: center;
+    border: 1px solid rgb(104, 94, 150);
+  }
+p {
+    color: rgb(238, 236, 255);
+  }
+
+img {
+    border: 1px solid rgb(238, 236, 255)
+  }
